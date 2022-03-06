@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Rana Nnja</title>
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+    </head>
+    <body>
+        <!-- Responsive navbar-->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container justify-content-center">
+                <a class="navbar-brand" href="#!"><h1>Rana NINJA</h1></a>      
+            </div>
+        </nav>
+        <!-- Page content-->
+        <div class="container mt-5">
+            <div class="row">
+                <div class="col-lg-12">
+                    <!-- Post content-->
+                    <article>
+                        <!-- Post header-->
+                        <header class="mb-4">
+                            <!-- Post title-->
+                            <h1 class="fw-bolder mb-1">CREANDO UN VIDEOJUEGO NINJA</h1>
+                            <!-- Post meta content-->
+                            <div class="text-muted fst-italic mb-2">Posteado por Nicolas, Ciceri y JuanJose</div>
+                    
+                        </header>
+                        <!-- poste-->
+                        <section>
+                            <h2 class="">Introducción</h2>
+                           <!-- <figure class="mb-4"><img class="img-fluid rounded" src="https://dummyimage.com/900x400/ced4da/6c757d.jpg" alt="..." /></figure>-->
+                        <!-- Post content-->
+                            <section class="mb-5">
+                                <p>Los videojuegos son aplicaciones cuyo objetivo es causar diversión y relajar a sus usuarios. Estudios demuestran que éstos estimulan las inteligencias múltiples y creatividad de los niños. Rana Ninja es un videojuego de plataformas construido en el motor Unity. Consiste en una rana llamada Harry, siendo un ninja prodigioso con 10 años de un fuerte entrenamiento, que se convertirá en un héroe al defender a su mundo del malvado villano Terry. El juego fue pensado y elaborado por tres chicos apasionados por el mundo de la programación, con el fin de que este videojuego sea elegido por muchas personas en sus momentos de estrés y soledad, o simplemente porque fue de gran acogida y lo juegan por pasión. 
+                                    En este blog contaremos nuestra experiencia durante la creación de un video juego y, a continuación, te mostraremos un pequeño tutorial que te puede servir como guía si estás pensando construir tu propio videojuego. Comencemos
+                                    </p>
+                            </section>
+
+                        </section>
+
+                        <section>
+                            <h2>¿Cómo sacamos nuestra Idea general para hacer un videojuego? </h2>
+                            <section class="mb-5">
+                                <p>Antes de empezar con los detalles técnicos primero que todo debemos saber que tipo de videojuego vamos a realizar, si ya tenemos una idea clara puedes saltarte esta sección sino puedes seguir leyendo e intentar inspirarse de forma similar a la que hicimos nosotros.
+                                    Cuando optamos por la idea de hacer un videojuego primero que nada empezamos con una lluvia de ideas, usamos un jam board para poner los gustos e intereses del equipo,claramente nuestras ideas eran fantásticas, queríamos crear toda una franquicia pero realmente no teníamos el tiempo ni la manera de como hacerlo por eso nos decidimos por la idea más viable en ese momento, la cual estaba ambientada en un mundo apocalíptico con el personaje favorito de una de nuestras películas, tortugas ninja. Luego de eso optamos en construirlo bajo un escenario 2D
+                                    </p>
+                            </section>
+                        </section>
+
+                        <section>
+                            <h2>Herramientas de trabajo</h2>
+                            <section class="mb-5">
+                                <p>Después de tener nuestra idea debemos saber que herramientas usar para construirlo:</p>
+                                <h5>1) Plataforma o entorno de desarrollo sobre el cual se va a realizar el juego</h5>
+                                <p>Existen muchas herramientas para desarrollar videojuegos, lo podemos hacer nativamente en un lenguaje de programación, pero nos tardariamos mucho además ya existen sistemas especializados para la creación de videojuegos como unreal engine 5 o unity. En este caso optamos por usar unity solo por gusto.</p>
+
+                                <h5>2) Conocimientos previos</h5>
+                                <p>Antes de realizar un videojuego necesitamos tener conocimientos previos de algoritmos y POO debido a que esta es la forma en cómo funcionan los videojuegos</p>
+
+                                <h5>3) Tener pasión</h5>
+                                <p>realizar un videojuego por muy sencillo que sea tiene sus dolores de cabeza, así que si tienes pasión por lo que haces te garantizara que lo termines</p>
+                            </section>
+                        </section>
+
+                        <section>
+                            <h2>Assets y creación del primer escenario</h2>
+                            <section class="mb-5">
+                                <p>
+                                    Para poder iniciar con la construcción del videojuego necesitamos tener una base en dónde trabajar, para ello realizamos el mapa. Inicialmente se elabora uno pequeño para ir dándole forma al campo y darnos cuenta cómo irían los objetos, luego ya podemos modificarlo y ubicar todo a nuestro gusto. Como en nuestro caso se trata de un juego en 2D y es un poco sencillo, no utilizamos código para construirlo, sino que recurrimos a descargar un paquete llamado “Pixel Adventure” de primera y segunda parte, de la “Asset Store” de Unity. 
+                                </p>
+
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <figure class="mb-4"><img class="img-fluid rounded" src="img/pixel1.jpeg"/></figure>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <figure class="mb-4"><img class="img-fluid rounded" src="img/pixel2.jpeg"/></figure>
+                                    </div>
+                                    <p>
+                                        Luego importamos y pasamos al entorno Unity. Escogimos la posición de la cámara, en torno a los Peley para que se mire mejor; al grill, que es todo el mapa, lo dibujamos con componentes del paquete importado mediante assets. Por último, el Background es lo que mira atrás del mapa, con lo que podemos hacer animaciones al gusto, nosotros hicimos una animación de un bucle que se mueve hacia abajo. También podemos colocar música a nuestro mapa mediante el ícono Main Cámara.
+                                    </p>
+
+                                    <figure class="mb-4"><img class="img-fluid rounded" src="img/pixel3.jpeg"/></figure>
+
+                                </div>
+                            </section>
+                        </section>
+
+                        <section>
+                            <h2>Creación del personaje</h2>
+                            <p>Teniendo la base del escenario, podemos pasar a la construcción de nuestro personaje, en nuestro caso solo será la rana, quién será el centro de atención del juego. Arrastramos un Sprite al escenario creándose un Game Objet, en nuestro caso lo llamamos Frog. </p>
+                            <figure class="mb-4"><img class="img-fluid rounded" src="img/pixel4.jpeg"/></figure>
+                            <p>Acto seguido, debemos agregar ciertos componentes que nos ayudarán a poder decidir el comportamiento del personaje, como lo es el Box Collider (silueta que detecta acercamiento de cualquier objeto), Rigidbody (físicas en general) y un Animator (animaciones).</p>
+                            <figure class="mb-4"><img class="img-fluid rounded" src="img/pixel5.jpeg"/></figure>
+                            <p>Luego, debemos controlar el Script en el que se desarrollará el código de control. Debido a que nuestro personaje no tendrá armas de defensa, sus movimientos serán pocos. Inicialmente se debe hacer el movimiento de la rana hacia la izquierda y hacia la derecha, tomamos las teclas “a” o la flecha izquierda  y “d” o la flecha derecha , respectivamente; y mediante el método Update con la clase Input se realizaron dichos movimientos. La otra acción es saltar, para ello elegimos la tecla “espacio”, con el condicional de que si la rana está sobre el suelo, salta, y si se encuentra en el aire, haga una pirueta. </p>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <figure class="mb-4"><img class="img-fluid rounded" src="img/pixel6.jpeg"/></figure>
+                                </div>
+                                <div class="col-md-6">
+                                    <figure class="mb-4"><img class="img-fluid rounded" src="img/pixel7.jpeg"/></figure>
+                                </div>
+
+                            </div>
+
+                            <p>Finalmente, para darle un toque más divertido agregamos un sonido que se activa en el momento que algún objeto cae y golpea la rana, activándose el Audio Source.</p>
+                        </section>
+
+                        <section>
+                            <h2>Enemigos</h2>
+                            <p>Una vez hechos los movimientos del personaje funcionando en el mapa, pasamos a la construcción de los obstáculos. Como lo dice en la historia del juego, el malvado Terry mandará a sus secuaces desde arriba tratando de hacerle daño a la rana. De igual manera, se debe agregar Box Collider, Rigidbody y un Animator para controlar el comportamiento de 
+                                ellos.
+                            </p>
+                            <figure class="mb-4"><img class="img-fluid rounded" src="img/pixel8.jpeg"/></figure>
+                            <p>También creamos el Script para manipular sus movimientos. Debido a que los enemigos caerán, mediante un parámetro, cuando aparece no baje hasta el infinito y hayan pérdidas de memorias, se destruye a los 5 segundos. Finalmente, con los métodos Start y Update se crea el bucle para que aparezcan nuevamente.</p>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <figure class="mb-4"><img class="img-fluid rounded" src="img/pixel9.jpeg"/></figure>
+                                </div>
+                                <div class="col-md-6">
+                                    <figure class="mb-4"><img class="img-fluid rounded" src="img/pixel10.jpeg"/></figure>
+                                </div>
+
+                            </div>
+                        </section>
+
+                        <section>
+                            <h2>Frutas</h2>
+                            <p>Con todo lo anterior, nos hace falta el medio por el cual podamos ganar puntuación y poder avanzar en cada nivel. Para ello, hemos diseñado unas frutas que caerán y al momento de ser tocadas por la rana, aumente la puntuación y poder alcanzar la estipulada de cada nivel. Por su puesto, debemos agregar Box Collider, Rigidbody y un Animator para controlar el comportamiento de ellos.</p>
+                            <figure class="mb-4"><img class="img-fluid rounded" src="img/pixelfrutas.jpeg"/></figure>
+                            <p>Creamos el Script para tener el control de las frutas. Hicimos que cuando la fruta choca con la rana, la imagen de la fruta desaparezca, pero para destruir en sí todo el objeto es mediante el método Destroy, para que tenga un sonido cuando se recoge la fruta se lo hace con el método clip.Play, e igualmente que los obstáculos se hace para que se desplacen hacia abajo.</p>
+                            <figure class="mb-4"><img class="img-fluid rounded" src="img/pixel11.jpeg"/></figure>
+                        </section>
+
+                        <section>
+                            <h2>Cambio de escena</h2>
+                            <p>A medida que vamos recogiendo frutas, nuestra puntuación irá aumentando, y llegado a un cierto número de puntuación, debemos avanzar de nivel. Para ello creamos el Script, pero aumentando la librería “UnityEngine.SceneManagemet”, y lo que se hace es que, cuando el número de la puntuación sea mayor o igual al número que se tenga definido para pasar el nivel, cambie al siguiente nivel. Este proceso se repite las veces que sea necesario, de acuerdo al número de niveles del juego.</p>
+                            <figure class="mb-4"><img class="img-fluid rounded" src="img/pixel12.jpeg"/></figure>
+                        </section>
+
+                        <section>
+                            <h2>Menu Principal</h2>
+                            <p>Terminando el videojuego, necesitamos crear un menú donde contenga las opciones de iniciar y salir. Pasamos a crear la herramienta Canvas, y dentro de ésta se crea el Button, incorporando el Script para poder controlar sus acciones. Una vez en éste, elaboramos la función SceneManager.LoadScene (cambia de escena al recibir una orden por parte del botón), y las funciones Debug.Log y Aplication.Quit (cierran la aplicación al recibir la orden del botón).</p>
+                            <figure class="mb-4"><img class="img-fluid rounded" src="img/pixel13.jpeg"/></figure>
+                            <p>Solo faltaría hacer el diseño a nuestro gusto. </p>
+                            <figure class="mb-4"><img class="img-fluid rounded" src="img/pixel14.jpeg"/></figure>
+                            <p>Aparte del menú principal, también necesitamos crear el menú pausa. Éste es muy similar a los procesos realizados anteriormente para el menú principal. Mediante la herramienta Canvas y los botones para poder estar activando y desactivando dicho menú. Para activar el menú, el botón debe recibir la orden que se asignará al panel por la función Set.Active y, de acuerdo a la opción que se elija, el botón da la orden al método correspondiente.</p>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <figure class="mb-4"><img class="img-fluid rounded" src="img/pixel15.jpeg"/></figure>
+                                </div>
+                                <div class="col-md-6">
+                                    <figure class="mb-4"><img class="img-fluid rounded" src="img/pixel17.jpeg"/></figure>
+                                </div>
+
+                            </div>
+                        </section>
+
+                        <section>
+                            <h2>Corazones de vida</h2>
+                            
+                            <p>Finalmente, se construyen los corazones que representan las vidas de la rana, que irán disminuyendo por cada choque que tenga con los obstáculos.</p>
+                            <figure class="mb-4"><img class="img-fluid rounded" src="img/pixel18.jpeg"/></figure>
+                        </section>
+
+                        <section>
+                            <h2>Finalizando ....</h2>
+                            <p><strong> Realizar un videojuego es un proyecto que nos dejara muchos conocimientos enriquecedores y definitivamente nos serviran mas adelante en nuestra vida de programador, este blog solo es el comienzo de algo grande.</strong></p>
+                        </section>
+                        
+                    </article>
+                    <!-- Comments section-->
+                    
+                </div>
+                <!-- Side widgets-->              
+            </div>
+        </div>
+        <!-- Footer-->
+        <footer class="py-5 bg-dark">
+            <div class="container"><p class="m-0 text-center text-white">Copyright &copy; TEAM RANA</p></div>
+        </footer>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+
+
+
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    </body>
+</html>
