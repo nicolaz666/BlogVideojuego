@@ -891,6 +891,12 @@ progress {
   --bs-gutter-y: 3rem;
 }
 
+.logo{
+
+  height: 80px;
+  width: 80px;
+}
+
 @media (min-width: 576px) {
   .col-sm {
     flex: 1 0 0%;
